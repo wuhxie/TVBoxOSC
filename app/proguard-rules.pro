@@ -63,6 +63,7 @@
 
 # 保留R下面的资源
 -keep class **.R$* {*;}
+-keep class com.xunlei.downloadlib.** {*;}
 
 # 保留本地native方法不被混淆
 -keepclasseswithmembernames class * {
